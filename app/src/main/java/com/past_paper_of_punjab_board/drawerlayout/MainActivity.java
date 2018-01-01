@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId())
                 {
+
+
                     case R.id.Item1:
                         Toast.makeText(MainActivity.this, "Item1", Toast.LENGTH_SHORT).show();
                     case R.id.Item2:
